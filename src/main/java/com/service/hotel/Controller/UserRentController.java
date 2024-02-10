@@ -17,7 +17,7 @@
 //
 //    @PostMapping("/hotel/{roomId}/rent")
 //    ResponseEntity<Void> apply(@PathVariable Long roomId, @RequestBody UserRentRequestDTO request) {
-//         FIXME: возвращать айди аренды
+//
 //        userRentService.apply(roomId, request);
 //        return ResponseEntity.ok().build();
 //    }

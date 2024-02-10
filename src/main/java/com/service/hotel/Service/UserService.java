@@ -1,10 +1,7 @@
 package com.service.hotel.Service;
 import com.service.hotel.DTO.Converter.User2DTOConverter;
-import com.service.hotel.DTO.HotelDTO;
-import com.service.hotel.DTO.HotelRequestDTO;
 import com.service.hotel.DTO.UserDTO;
 import com.service.hotel.DTO.UserRequestDTO;
-import com.service.hotel.Entity.Hotel;
 import com.service.hotel.Entity.User;
 import com.service.hotel.Exceptions.NotFoundException;
 import com.service.hotel.Repository.UserRepository;
@@ -12,7 +9,6 @@ import lombok.RequiredArgsConstructor;
 import org.apache.coyote.BadRequestException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.client.HttpClientErrorException;
 
 import java.util.List;
 

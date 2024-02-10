@@ -1,6 +1,5 @@
 package com.service.hotel.DTO;
 
-import com.service.hotel.Entity.UserRent;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
